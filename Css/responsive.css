@@ -1,0 +1,57 @@
+@media screen and (max-width: 400px) {
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 13px;
+    }
+
+    .container input {
+        font-size: 16px;
+    }
+
+    .container :nth-child(2) {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 10px;
+    }
+
+    .container input {
+        font-size: 14px;
+    }
+
+    .container :nth-child(2) {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .container :nth-child(2) {
+        font-size: 12px;
+    }
+
+    .container h1 {
+        font-size: 15px;
+    }
+
+    .container p {
+        font-size: 7px;
+    }
+
+    .container input {
+        font-size: 12px;
+    }
+
+    .container :nth-child(2) {
+        font-size: 10px;
+    }
+}
